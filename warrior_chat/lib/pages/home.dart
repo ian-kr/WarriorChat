@@ -32,6 +32,7 @@ class MainTabBar extends StatelessWidget{
                 color: Colors.white,
               ),
             ),
+            centerTitle: true,
             backgroundColor: Colors.blue,
             bottom: TabBar(
               padding: const EdgeInsets.symmetric(horizontal: 50),
