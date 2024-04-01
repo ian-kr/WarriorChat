@@ -25,8 +25,13 @@ class MainTabBar extends StatelessWidget{
         length : 2,
         child: Scaffold(
           appBar: AppBar(
-            
-            title : const Text("Warrior Chat"),
+            title: const Text(
+              "Warrior Chat",
+              style: TextStyle(
+                fontSize: 36.0,
+                color: Colors.white,
+              ),
+            ),
             backgroundColor: Colors.blue,
             bottom: TabBar(
               padding: const EdgeInsets.symmetric(horizontal: 50),
